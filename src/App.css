@@ -6,10 +6,114 @@ body{
   background-color: black;
 }
 
-header span{
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 3px;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  backdrop-filter: blur(2px);
+}
+
+#logo{
+  padding-top: 35px;
+  display: flex;
+  color: #0FD90F;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+#logo:visited{
+  color: #0FD90F;
+}
+
+#logo:hover{
+  color: white;
+}
+
+#logo>span{
   color: #09A424;
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+header span{
+  color: #ffffff;
+  font-size: 16.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+header span:hover{
+  color: #09A424;
+}
+
+.paginas{
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+  padding-top: 35px;
+}
+
+#link-pags{
+  text-decoration: none;
+  padding-left: 18px;
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 210px;
+  align-items: center;
+}
+
+.intro h1{
+  color: #FFF;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.intro span{
+  color: #0FD90F;
+}
+
+.saudacao h2{
+  color: #25A025;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -40px;
+}
+
+.imagem-intro img{
+  width: 410px;
+  height: 410px;
+}
+
+.sobre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 210px;
+  align-items: center;
 }
