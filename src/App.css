@@ -3,19 +3,29 @@
 }
 
 body{
-  background-color: black;
+  background: linear-gradient(
+    to bottom, #000000, #010904, #010b04, #033d16
+  ); 
 }
 
-header{
+.menu{
+  position: fixed;
+  height: 64px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.689);
+  backdrop-filter: blur(3px);
+  padding-bottom: 20px;
+}
+
+.content{
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   row-gap: 3px;
   height: 64px;
   width: 100%;
   position: fixed;
-  background-color: black;
-  backdrop-filter: blur(2px);
 }
 
 #logo{
@@ -28,6 +38,7 @@ header{
   justify-content: center;
   align-items: center;
   margin-left: 10%;
+  transition: color 0.5s ease;
 }
 
 #logo:visited{
@@ -52,10 +63,11 @@ header span{
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: color 0.5s ease;
 }
 
 header span:hover{
-  color: #09A424;
+  color: #0FD90F;
 }
 
 .paginas{
@@ -69,6 +81,11 @@ header span:hover{
 #link-pags{
   text-decoration: none;
   padding-left: 18px;
+}
+
+.separator img{
+  width: 100%;
+  transform: rotate(180deg);
 }
 
 .intro{
@@ -115,5 +132,92 @@ header span:hover{
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 210px;
+  padding-bottom: 210px;
   align-items: center;
+}
+
+.imagem-sobre img{
+  width: 400px;
+  height: 400px;
+}
+
+.sobre h2{
+  color: #09A424;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sobre span{
+  color: #0FD90F;
+}
+
+.sobre p{
+  color: #FFF;
+  text-align: center;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sobre h1{
+  font-size: 27px;
+  font-weight: normal;
+}
+
+.sobre-titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-titulo a{
+  width: 129px;
+  height: 33px;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 129px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 19.5px;
+  background: #218B21;
+  box-shadow: 0px 4px 1px 0px #FFF;
+  cursor: pointer;
+  transition: color 0.5s ease, width 0.5s ease, height 0.5s ease;
+  text-decoration: none;
+}
+
+.btn:hover{
+  width: 160;
+  height: 40px;
+  border-radius: 19.5px;
+  background: #218B21;
+  box-shadow: 0px 4px 1px 0px #FFF;
+}
+
+.btn img{
+  width: 15px;
+  height: 20px;
+  color: white;
+  padding-left: 19px;
+}
+
+.btn h2{
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-left: 10px;
 }
