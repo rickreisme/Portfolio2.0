@@ -6,6 +6,15 @@ import imgIntro from "./assets/SVGs/Hand coding-amico.svg"
 import imgSobre from "./assets/SVGs/Programmer-pana.svg"
 import imgSetaB from "./assets/SVGs/arrow-down-solid.svg"
 import cvRick from "./assets/Others/Rickson-Reis.pdf"
+import imgHtml from "./assets/SVGs/html5.svg"
+import imgCss from "./assets/SVGs/css3-alt.svg"
+import imgJS from "./assets/SVGs/js.svg"
+import imgFlutt from "./assets/SVGs/flutter.svg"
+import imgReact from "./assets/SVGs/react.svg"
+import imgPostG from "./assets/SVGs/dbs-postgresql.svg"
+import imgSQLS from "./assets/SVGs/1608662_database_icon.svg"
+import imgGit from "./assets/SVGs/git.svg"
+import imgCpp from "./assets/SVGs/cpp.svg"
 
 function App() {
   return (
@@ -44,6 +53,7 @@ function App() {
         <div className='sobre-titulo'>
           <h2>&#123;rickreisme<br/>&#47;
           <span>sobre</span>&#125;</h2>
+
           <a className='btn' href={cvRick} download>
             <img src={imgSetaB}></img>
             <h2>Currículo</h2>
@@ -52,27 +62,82 @@ function App() {
 
         <p>
         <h1><span>Sobre Mim</span></h1>
-        Sou o <span>Rickson</span> (mas a maioria me chama de <span>Rick</span>), atualmente curso 
-        Análise e Desenvolvimento de Sistemas. Desde sempre, tenho sido fascinado por 
-        tecnologia, mas foi em 2021 que meu interesse pela programação se despertou 
-        de forma mais intensa, logo me apaixonando pelo desenvolvimento <span>front-end</span>.<br/>
-
-        <br/>Possuo conhecimento sólido em <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, além de ter familiaridade com 
-        <span>React.js</span>, <span>PostgreSQL</span>, <span>SQL Server</span> e C++ e também habilidades básicas em desenvolvimento 
-        de aplicativos móveis utilizando <span>Flutter</span>, e o banco de dados Firebase.<br/>
-
-        <br/>Sou um <span>aprendiz rápido</span>, disposto a enfrentar novos desafios e <span>aprimorar</span> minhas <span>habilidades</span> 
-        por meio de <span>prática</span> constante. Estou em busca da minha primeira oportunidade profissional 
-        na área, com o objetivo de crescer profissionalmente e expandir meu conhecimento cada vez. 
-        Estou entusiasmado para contribuir em projetos e trabalhar em equipe, além de continuar
-        evoluindo como desenvolvedor front-end.
+        Minha paixão pela tecnologia sempre esteve presente, porém, foi em 2021,
+        quando comecei a cursar Análise e Desenvolvimento de Sistemas, que o meu 
+        interesse pela programação se intensificou, especialmente pelo desenvolvimento
+        front-end. 
+        <br/>Possuo habilidades sólidas em <span>HTML</span>, <span>CSS</span> e 
+        <span> JavaScript</span>, e tenho familiaridade com <span>React.js</span>, 
+        <span> PostgreSQL</span>, <span> SQL Server</span> e C++. Além disso, possuo 
+        também habilidades em desenvolvimento mobile para Android com
+        <span> Flutter</span> e <span>Firebase</span>. Tenho um forte desejo por 
+        <span> aprendizado</span> e busco <span>aprimorar</span> minhas 
+        <span> habilidades</span> constantemente. 
+        <br/>Estou em busca da minha primeira oportunidade profissional na área, com o objetivo de crescer, contribuir 
+        em projetos e evoluir como desenvolvedor front-end.
         </p>
 
       </div>
 
-      <div className='experiencia' id='experiencia'></div>
+      <div className='experiencia' id='experiencia'>
+        <h2>&#123;rickreisme&#47;<span>experiência</span>&#125;</h2>
+        <h3>Minhas Habilidades</h3>
+            
+        <div className='habilidades'>
+          <a className='btn2' href={cvRick} download>
+                <img src={imgHtml}></img>
+                <h2>HTML</h2>
+          </a>
 
-      <div className='meus-projetos' id='meus-projetos'></div>
+          <a className='btn2' href={cvRick} download>
+                <img src={imgCss}></img>
+                <h2>CSS</h2>
+          </a>
+
+          <a className='btn2' href={cvRick} download>
+                <img src={imgJS}></img>
+                <h2>JavaScript</h2>
+          </a>
+
+          <a className='btn2' href={cvRick} download>
+                <img src={imgFlutt}></img>
+                <h2>Flutter</h2>
+          </a>
+
+          <a className='btn2' href={cvRick} download>
+                <img src={imgReact}></img>
+                <h2>React.js</h2>
+          </a>
+
+          <a className='btn2' href={cvRick} download>
+                <img src={imgPostG}></img>
+                <h2>PostgreSQL</h2>
+          </a>
+
+          <a className='btn2' href={cvRick} download>
+                <img src={imgSQLS}></img>
+                <h2>SQL Server</h2>
+          </a>
+
+          <a className='btn2' href={cvRick} download>
+                <img src={imgGit}></img>
+                <h2>Git</h2>
+          </a>
+
+          <a className='btn2' href={cvRick} download>
+                <img src={imgCpp}></img>
+                <h2>C++</h2>
+          </a>
+        </div>
+      </div>
+
+      <div className='meus-projetos' id='meus-projetos'>
+        <h2>&#123;rickreisme&#47;<span>meus projetos</span>&#125;</h2>
+        
+        <div className='projetos'>
+
+        </div>
+      </div>
 
       <div className='contato' id='contato'></div>
 

@@ -159,7 +159,7 @@ header span:hover{
 .sobre p{
   color: #FFF;
   text-align: center;
-  font-size: 13.5px;
+  font-size: 15.5px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -220,4 +220,112 @@ header span:hover{
   line-height: normal;
   text-align: center;
   padding-left: 10px;
+}
+
+.experiencia{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 210px;
+  align-items: center;
+}
+
+.experiencia h2{
+  color: #09A424;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.experiencia span{
+  color: #0FD90F;
+}
+
+.experiencia h3{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  margin-top: -20px;
+}
+
+.habilidades{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 210px;
+  align-items: flex-start;
+  row-gap: 40px;
+  justify-content: center;
+}
+
+.btn2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 53px;
+  border-radius: 30px;
+  background: #218B21;
+  cursor: pointer;
+  transition: background-color 0.5s ease, width 0.5s ease, height 0.5s ease;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.btn2 img{
+  width: 37px;
+  height: 37px;
+  color: white;
+}
+
+.btn2 h2{
+  color: #FFF;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.btn2:hover{
+  background: #087c08;
+}
+
+.meus-projetos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 210px;
+  padding-bottom: 210px;
+  align-items: center;
+}
+
+.meus-projetos h2{
+  color: #09A424;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 210px;
+  padding-bottom: 210px;
+  align-items: center;
 }
