@@ -177,32 +177,28 @@ header span:hover{
   align-items: center;
 }
 
-.sobre-titulo a{
-  width: 129px;
-  height: 33px;
-}
-
 .btn{
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 129px;
+  width: 140px;
   height: 33px;
-  flex-shrink: 0;
   border-radius: 19.5px;
   background: #218B21;
   box-shadow: 0px 4px 1px 0px #FFF;
   cursor: pointer;
-  transition: color 0.5s ease, width 0.5s ease, height 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease, width 0.5s ease, height 0.5s ease;
   text-decoration: none;
 }
 
 .btn:hover{
-  width: 160;
-  height: 40px;
-  border-radius: 19.5px;
-  background: #218B21;
-  box-shadow: 0px 4px 1px 0px #FFF;
+  background-color: #1ee61e;
+  box-shadow: 0px 3px 1px 0px #FFF;
+}
+
+.btn:hover h2{
+  color: #021602;
+  font-weight: 600;
 }
 
 .btn img{
@@ -214,12 +210,13 @@ header span:hover{
 
 .btn h2{
   color: #FFF;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: center;
   padding-left: 10px;
+  transition: color 0.5s ease, font-weight 0.5s ease;
 }
 
 .experiencia{
@@ -228,6 +225,10 @@ header span:hover{
   margin-left: 10%;
   margin-right: 10%;
   align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  justify-content: center;
+  align-self: center;
 }
 
 .experiencia h2{
@@ -303,7 +304,8 @@ header span:hover{
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 210px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   align-items: center;
 }
 
@@ -501,7 +503,7 @@ header span:hover{
 
 .contato{
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .contato span{
@@ -520,7 +522,7 @@ header span:hover{
 .colunas{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-left: 10%;
   margin-right: 10%;
   align-items: center;
@@ -638,4 +640,27 @@ header span:hover{
 #linkk:hover{
   width: 60px;
   height: 60px;
+}
+
+#avaRick{
+  display: flex;
+  width: 350px;
+  padding: 16.884px 23.052px 0px 21.828px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  padding-top: 200px;
+}
+
+footer h3{
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer span{
+  color: #0FD90F;
 }
