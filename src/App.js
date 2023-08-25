@@ -1,20 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
-
-import imgIntro from "./assets/SVGs/Hand coding-amico.svg"
-import imgSobre from "./assets/SVGs/Programmer-pana.svg"
-import imgSetaB from "./assets/SVGs/arrow-down-solid.svg"
-import cvRick from "./assets/Others/Rickson-Reis.pdf"
-import imgHtml from "./assets/SVGs/html5.svg"
-import imgCss from "./assets/SVGs/css3-alt.svg"
-import imgJS from "./assets/SVGs/js.svg"
-import imgFlutt from "./assets/SVGs/flutter.svg"
-import imgReact from "./assets/SVGs/react.svg"
-import imgPostG from "./assets/SVGs/dbs-postgresql.svg"
-import imgSQLS from "./assets/SVGs/1608662_database_icon.svg"
-import imgGit from "./assets/SVGs/git.svg"
-import imgCpp from "./assets/SVGs/cpp.svg"
+import {imgIntro, imgSobre, imgSetaB, cvRick, imgHtml, imgCss, imgJS, imgFlutt,
+        imgReact, imgPostG, imgSQLS, imgGit, imgCpp, imgEpp, imgVer,imgHor,
+        iconLi, iconBe, iconGi, iconLink, avatarRi} from './imports';
 
 function App() {
   return (
@@ -84,47 +73,47 @@ function App() {
         <h3>Minhas Habilidades</h3>
             
         <div className='habilidades'>
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgHtml}></img>
                 <h2>HTML</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgCss}></img>
                 <h2>CSS</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgJS}></img>
                 <h2>JavaScript</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgFlutt}></img>
                 <h2>Flutter</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgReact}></img>
                 <h2>React.js</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgPostG}></img>
                 <h2>PostgreSQL</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgSQLS}></img>
                 <h2>SQL Server</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgGit}></img>
                 <h2>Git</h2>
           </a>
 
-          <a className='btn2' href={cvRick} download>
+          <a className='btn2' >
                 <img src={imgCpp}></img>
                 <h2>C++</h2>
           </a>
@@ -133,13 +122,100 @@ function App() {
 
       <div className='meus-projetos' id='meus-projetos'>
         <h2>&#123;rickreisme&#47;<span>meus projetos</span>&#125;</h2>
-        
-        <div className='projetos'>
 
+        <div className='projetos'>
+          <div className='box-projeto'>
+            <h2>App E++</h2>
+            <img src={imgEpp} id='epp'></img>
+            <h3>Versão demo do aplicativo E++ que está sendo <br/>
+            desenvolvido para ajudar no estudo de <br/>
+            programação para alunos iniciantes.</h3>
+            <a className='btn3' href='https://github.com/rickreisme/EppDemo' target='_blank' rel="noreferrer">
+                <h2>Ver repositório</h2>
+            </a>
+            <h4>Flutter - Dart - Firebase</h4>
+          </div>
+
+          <div className='box-projeto'>
+            <h2>Verificador de Idade</h2>
+            <img src={imgVer} id='verific'></img>
+            <h3>Site que mostra a idade e a imagem de uma <br/> 
+            pessoa de acordo com o ano de nascimento <br/>
+            e o sexo que o usuário preenche.</h3>
+            <div className='botoes'>
+              <a className='btn3' href='https://github.com/rickreisme/VerificadorIdade' target='_blank' rel="noreferrer">
+                  <h2>Ver repositório</h2>
+              </a>
+              <a className='btn4' href='https://rickreisme.github.io/VerificadorIdade/' target='_blank' rel="noreferrer">
+                  <h2>Acessar site</h2>
+              </a>
+            </div>
+            <h4>HTML - CSS - Javascript</h4>
+          </div>
+
+          <div className='box-projeto'>
+            <h2>DynamicRelogio</h2>
+            <img src={imgHor} id='horaD'></img>
+            <h3>Uma página que exibe um relógio digital em <br/>
+            tempo real, com cores de fundo em degradê e<br/>
+            textos que se alteram conforme o dia e horário.</h3>
+            <div className='botoes'>
+              <a className='btn3' href='https://github.com/rickreisme/DynamicRelogio' target='_blank' rel="noreferrer">
+                  <h2>Ver repositório</h2>
+              </a>
+              <a className='btn4' href='https://rickreisme.github.io/DynamicRelogio/' target='_blank' rel="noreferrer">
+                  <h2>Acessar site</h2>
+              </a>
+            </div>
+            <h4>HTML - CSS - Javascript</h4>
+          </div>
         </div>
+
+          <a className='btn5' href='https://github.com/rickreisme?tab=repositories' target='_blank' rel="noreferrer">
+            <h2>Ver todos os projetos</h2>
+          </a>
       </div>
 
-      <div className='contato' id='contato'></div>
+      <div className='contato' id='contato'>
+        <h2>&#123;rickreisme&#47;<span>contato</span>&#125;</h2>
+        
+        <div className='colunas'>
+          <div className='colunaE'>
+            <h3>
+            Estou procurando oportunidades no mercado de <br/>
+            trabalho, entre em contato comigo para propostas.<br/>
+            Feedbacks também são muito bem-vindos!
+            </h3>
+
+            <a className='btn6' href='mailto:ricksonreisamoroso@gmail.com' target='_blank' rel="noreferrer">
+            <h4>Enviar Mensagem</h4>
+            </a>
+            
+            <div className='sociais'>
+              <h3>Me acompanhe nas redes sociais</h3>
+              <div className='redes'>
+                <a href='https://github.com/rickreisme' target="_blank" rel="noreferrer">
+                <img src={iconGi} id='gith'></img>
+                </a>
+
+                <a href='https://www.linkedin.com/in/ricksonreis/' target="_blank" rel="noreferrer">
+                <img src={iconLi} id='linkd'></img>
+                </a>
+
+                <a href='https://www.behance.net/rickreis1' target="_blank" rel="noreferrer">
+                <img src={iconBe} id='beh'></img>
+                </a>
+
+                <a href='https://linktr.ee/rickreisme' target="_blank" rel="noreferrer">
+                <img src={iconLink} id='linkk'></img>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <img src={avatarRi} id='avaRick'></img>
+        </div>
+      </div>
 
       <footer></footer>
 
