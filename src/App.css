@@ -1,5 +1,7 @@
 *{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -8,13 +10,34 @@ body{
   ); 
 }
 
+a{
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background: white;
+  margin: 8px;
+}
+
 .menu{
   position: fixed;
-  height: 64px;
+  height: 5vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.689);
   backdrop-filter: blur(3px);
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .content{
@@ -79,8 +102,7 @@ header span:hover{
 }
 
 #link-pags{
-  text-decoration: none;
-  padding-left: 18px;
+  margin-left: 18px;
 }
 
 .separator img{
@@ -117,7 +139,7 @@ header span:hover{
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: -40px;
+  margin-top: -20px;
 }
 
 .imagem-intro img{
@@ -251,7 +273,7 @@ header span:hover{
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 .habilidades{
@@ -320,6 +342,7 @@ header span:hover{
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 20px;
 }
 
 .projetos{
@@ -396,8 +419,7 @@ header span:hover{
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
-  text-align: center;
+  padding-top: 21px;
 }
 
 .btn3:hover{
@@ -430,6 +452,7 @@ header span:hover{
   font-weight: 600;
   line-height: normal;
   text-align: center;
+  padding-top: 21px;
 }
 
 .btn4:hover{
@@ -486,6 +509,7 @@ header span:hover{
   line-height: normal;
   text-align: center;
   transition: color 0.5s ease;
+  padding-top: 16.5px;
 }
 
 .btn5:hover{
@@ -663,4 +687,132 @@ footer h3{
 
 footer span{
   color: #0FD90F;
+}
+
+@media (max-width: 999px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .paginas{
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vh;
+    height: 92vh;
+    background-color: rgba(0, 0, 0, 0.689);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .paginas li{
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  .mobile-menu{
+    display: block;
+  }
+
+  .paginas.active{
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  body {
+    padding: 0;
+  }
+
+  .menu,
+  .content,
+  .intro,
+  .sobre,
+  .experiencia,
+  .meus-projetos,
+  .contato,
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro h1,
+  .sobre h2,
+  .experiencia h2,
+  .meus-projetos h2,
+  .contato h2,
+  footer h3 {
+    font-size: 24px;
+  }
+
+  .imagem-intro img,
+  .imagem-sobre img,
+  .box-projeto,
+  .sociais {
+    width: 100%;
+  }
+
+  .btn,
+  .btn2,
+  .btn3,
+  .btn4,
+  .btn5,
+  .btn6 {
+    width: 100%;
+  }
+
+  .btn img {
+    padding-left: 10px;
+  }
+
+  .btn h2,
+  .btn2 h2,
+  .btn3 h2,
+  .btn4 h2,
+  .btn5 h2,
+  .btn6 h2 {
+    font-size: 14px;
+  }
+
+  .menu{
+    margin-right: 10%;
+  }
+
+  .intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .saudacao{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .saudacao h1{
+    line-height: 85%;
+  }
+
+  .saudacao h2{
+    font-size: 18px;
+    line-height: 80%;
+    padding-top: 40px;
+  }
+
+  .imagem-intro img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+  }
+
 }
