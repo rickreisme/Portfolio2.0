@@ -1086,7 +1086,10 @@ h1, h2, h3, p{
     .btn4,
     .btn5,
     .btn6 {
-      width: 100%;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   
     .btn img {
@@ -1099,26 +1102,32 @@ h1, h2, h3, p{
     .btn4 h2,
     .btn5 h2,
     .btn6 h2 {
-      font-size: 14px;
+      font-size: 16px;
     }
   
     .menu{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
       margin-right: 10%;
       height: 10vh;
     }
     
     .mobile-menu{
-      padding-top: 15px;
-      margin-left: 15%;
+      margin-right: 1%;
     }
 
     .paginas{
-      top: 10vh;
+      top: 6.8vh;
+      right: -5px;
       height: 50vh;
+      width: 80vw;
       margin-left: 0;
-      margin-right: 0;
+      margin-right: 5px;
       border-bottom-left-radius: 20px;
       justify-content: start;
+      align-items: center;
+      transform: translateX(110%);
     }
 
     .paginas li{
@@ -1127,8 +1136,7 @@ h1, h2, h3, p{
     }
 
     #logo{
-      padding-top: 15px;
-      margin-right: 20%;
+      margin-right: 30%;
     }
   
     .intro{
@@ -1139,58 +1147,60 @@ h1, h2, h3, p{
     }
   
     .saudacao{
-      margin-left: 15%;
-      margin-right: 15%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 0%;
+      margin-right: 0%;
       padding-top: 100px;
       padding-bottom: 10px;
       justify-content: center;
       align-items: center;
     }
   
-    .saudacao h1{
-      line-height: 85%;
-    }
-  
     .saudacao h2{
       font-size: 20px;
-      line-height: 80%;
-      margin-top: 10px;
+      margin-top: 5px;
       font-family: 'Poppins', sans-serif;
       text-align: center;
     }
   
     .imagem-intro img{
       display: flex;
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       padding-top: 20px;
     }
 
     .sobre{
       display: flex;
       flex-direction: column;
+      justify-content: center;
       margin-left: 15%;
       margin-right: 15%;
     }
 
     .imagem-sobre{
       display: flex;
-      width: 250px;
-      height: 250px;
+      width: 230px;
+      height: 230px;
       padding-top: 90px;
+      padding-bottom: 0;
+    }
+
+    .h2s{
+      padding-top: 10px;
+    }
+
+    .sobre-titulo{
+      padding-top: 0;
     }
 
     .sobre h1{
-      padding-top: 30px;
       font-size: 23px;
     }
 
     .sobre p{
       font-size: 18px;
-    }
-
-    .h2s{
-      padding-top: 75px;
     }
 
     .btn{
@@ -1214,4 +1224,113 @@ h1, h2, h3, p{
     .experiencia .tituloxp{
       padding-top: 75px;
     }
+
+    .habilidades{
+      margin-bottom: 50px;
+    }
+
+    .btn2{
+      margin-left: 0;
+      width: 60%;
+    }
+
+    .meus-projetos{
+      padding-top: 80px;
+    }
+
+    .projetos{
+      flex-direction: column;
+    }
+
+    #projeto-titulo{
+      font-size: 22px;
+    }
+
+    .btn5{
+      font-size: 17px;
+      width: 60%;
+    }
+
+    #box-projeto1{
+      height: 380px;
+    }
+
+    .box-projeto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      margin-right: 0;
+      padding-right: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .box-projeto h3 {
+      color: #FFF;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding-top: 8px;
+      padding-left: 8px;
+      padding-right: 10px;
+    }
+
+    .projetos br{
+      display: none;
+    }
+
+    .nome-projeto{
+      font-size: 15px;
+    }
+
+    #epp, #verific, #horaD {
+      width: 270px;
+      height: 160px;
+      border-radius: 15px;
+    }
+
+    .sociais{
+      display: flex;
+      width: 270px;
+      border-radius: 30px;
+      padding-bottom: 10px;
+    }
+
+    #gith, #linkd, #beh, #linkk{
+      margin-left: 2px;
+      margin-right: 2px;
+      width: 40px;
+      height: 40px;
+    }
+
+    #gith:hover, #linkd:hover, #beh:hover, #linkk:hover{
+      width: 50px;
+      height: 50px;
+    }
+
+    .contato{
+      padding-top: 90px;
+    }
+
+    .contato br{
+      display: none;
+    }
+
+    footer{
+      margin-top: 40px;
+    }
+
+    footer h3 {
+      font-size: 15px;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+    }
+    
   }
