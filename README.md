@@ -1,7 +1,7 @@
 # Portifólio rickreisme (2.0)
 
-Versão reformulada do meu portfólio que está em desenvolvimento.
+Versão reformulada do meu portfólio.
 
 ## Tecnologias usadas
 
-HTML, CSS, Javascript, React.js
+HTML, CSS, Javascript
