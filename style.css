@@ -484,13 +484,7 @@ h1, h2, h3, p{
     margin-top: 10px;
   }
   
-  #loginf{
-    width: 350px;
-    height: 200px;
-    border-radius: 15px;
-  }
-  
-  #horaD{
+  .img_projeto{
     width: 350px;
     height: 200px;
     border-radius: 15px;
@@ -1271,7 +1265,7 @@ h1, h2, h3, p{
       font-size: 15px;
     }
 
-    #epp, #verific, #horaD {
+    .img_projeto{
       width: 270px;
       height: 160px;
       border-radius: 15px;
