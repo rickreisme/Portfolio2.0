@@ -351,6 +351,16 @@ h1, h2, h3, p{
     line-height: normal;
     margin-bottom: 20px;
   }
+
+  .meus-projetos h3{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
   
   .projetos{
     display: flex;
@@ -389,7 +399,7 @@ h1, h2, h3, p{
     border-radius: 15px;
   }
   
-  .box-projeto h3{
+  .box-projeto p{
     color: #FFF;
     text-align: center;
     font-family: 'Poppins', sans-serif;
