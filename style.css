@@ -212,6 +212,8 @@ h1, h2, h3, p{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    padding-left: 10%;
     width: 140px;
     height: 33px;
     border-radius: 19.5px;
@@ -223,15 +225,8 @@ h1, h2, h3, p{
   }
   
   .btn:hover{
-    background-color: #1ee61e;
+    background-color: #187618;
     box-shadow: 0px 3px 1px 0px #FFF;
-  }
-  
-  .btn img{
-    width: 15px;
-    height: 20px;
-    color: white;
-    padding-left: 19px;
   }
   
   .btn h2{
@@ -242,10 +237,6 @@ h1, h2, h3, p{
     text-align: center;
     padding-left: 10px;
     transition: color 0.5s ease;
-  }
-
-  .btn:hover h2{
-    color: #021602;
   }
   
   .experiencia{
