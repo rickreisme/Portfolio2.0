@@ -1,6 +1,6 @@
 # Portifólio rickreisme (2.0)
 
-Versão reformulada do meu portfólio.
+Nova versão, reformulada e responsiva, do meu portfólio online.
 
 ## Tecnologias usadas
 
