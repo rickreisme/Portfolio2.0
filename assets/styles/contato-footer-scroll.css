@@ -37,6 +37,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    animation: appear2 forwards;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
   }
   
   .btn6 {
@@ -86,6 +89,9 @@
     background: var(--verde-secundario);
     margin-top: 40px;
     padding-bottom: 20px;
+    animation: appear3 forwards;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
   }
   
   .sociais h3 {
@@ -131,6 +137,9 @@
     padding: 16.884px 23.052px 0px 21.828px;
     justify-content: center;
     align-items: center;
+    animation: appear2 forwards;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
   }
   
   footer {

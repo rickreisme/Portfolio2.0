@@ -1,0 +1,119 @@
+@keyframes appear {
+    from{
+        opacity: 0;
+        translate: -100vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes appear2 {
+    from{
+        opacity: 0;
+        translate: 100vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes appear3 {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes appear4 {
+    from{
+        opacity: 0;
+        translate: 100vw 0;
+        transform: rotate(-180deg);
+    }
+
+    to{
+        transform: rotate(180deg);
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes desappear {
+    from{
+        opacity: 1;
+        translate: 0 0;
+    }
+
+    to{
+        opacity: 0;
+        translate: -100vw 0;
+    }
+}
+
+@keyframes desappear2 {
+    from{
+        opacity: 1;
+        translate: 0 0;
+    }
+
+    to{
+        opacity: 0;
+        translate: 100vw 0;
+    }
+}
+
+@keyframes desappear3 {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes reveal {
+    from{
+        opacity: 0;
+        clip-path: circle(0%);
+    }
+
+    to{
+        opacity: 1;
+        clip-path: circle(100%);
+    }
+}
+
+@keyframes reveal2 {
+    from{
+        clip-path: circle(0%);
+    }
+
+    to{
+        clip-path: circle(100%);
+    }
+}
+
+@keyframes desreveal {
+    from{
+        opacity: 1;
+        clip-path: circle(100%);
+    }
+
+    to{
+        opacity: 0;
+        clip-path: circle(0%);
+    }
+}

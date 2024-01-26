@@ -53,6 +53,9 @@
     transition: var(--transicao-botao-hover);
     text-decoration: none;
     margin-left: 20px;
+    animation: reveal2 ease-in-out;
+    animation-timeline: scroll();
+    animation-range: cover 20% cover 50%;
   }
   
   .btn2 img {
@@ -82,6 +85,9 @@
     margin: 0 7%;
     padding: 100px 0 50px 0;
     align-items: center;
+    animation: appear2 forwards;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
   }
   
   .meus-projetos span {
@@ -236,6 +242,9 @@
     width: 350px;
     height: 200px;
     border-radius: 15px;
+    animation: appear4 forwards;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
   }
   
   .btn5 {
