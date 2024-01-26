@@ -373,6 +373,7 @@ header span:hover {
   align-items: center;
   justify-content: center;
   margin-left: 15px;
+  padding: 0 15px;
 }
 
 .box-projeto h2 {
