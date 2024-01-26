@@ -1,0 +1,123 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 210px;
+    align-items: center;
+  }
+  
+  .intro h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .intro span {
+    color: var(--verde-principal);
+  }
+  
+  .saudacao h2 {
+    color: var(--verde-terciario);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .imagem-intro img {
+    width: 410px;
+    height: 410px;
+  }
+  
+  .sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    margin-left: 7%;
+    margin-right: 7%;
+    align-items: center;
+  }
+  
+  .imagem-sobre img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .sobre h2 {
+    color: var(--verde-secundario);
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .sobre span {
+    color: var(--verde-principal);
+  }
+  
+  .sobre p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  
+  .sobre h1 {
+    font-size: 27px;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .sobre-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .h2s {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10%;
+    width: 140px;
+    height: 33px;
+    border-radius: 19.5px;
+    background: var(--verde-quaternario);
+    box-shadow: 0px 4px 1px 0px #FFF;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, width 0.5s ease, height 0.5s ease;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: var(--verde-cinco);
+    box-shadow: 0px 3px 1px 0px #FFF;
+  }
+  
+  .btn h2 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    padding-left: 10px;
+    transition: color 0.5s ease;
+  }

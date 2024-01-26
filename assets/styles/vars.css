@@ -1,0 +1,22 @@
+:root{
+    --bg-degrade: linear-gradient(to bottom, #000000, #010904, #010b04, #033d16);
+    --bg-menu: rgba(0, 0, 0, 0.689);
+
+    --verde-principal: #0FD90F;
+    --verde-secundario: #09A424;
+    --verde-terciario: #25A025;
+    --verde-quaternario: #218B21;
+    --verde-cinco: #187618;
+    --verde-seis: #087c08;
+    --verde-sete: #088B1F;
+    --verde-oito: #005200;
+    --verde-dark: #021602;
+    --verde-darkL: rgb(18, 48, 11);
+
+    --Poppins: 'Poppins', sans-serif;
+
+    --transicao-botao-hover: background-color 0.5s ease, width 0.5s ease, height 0.5s ease;
+    --transicao-botao-hover2: background-color 0.5s ease, border 0.5s ease, color 0.5s ease;
+    --transicao-botao-hover3: color 0.5s ease, background-color 0.5s ease, transform 0.5s ease;
+    --transicao-botao-hover4: color 0.5s ease, font-weight 0.5s ease;
+}

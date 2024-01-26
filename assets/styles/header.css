@@ -1,0 +1,90 @@
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: white;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.menu {
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  height: 11vh;
+  width: 100%;
+  background-color: var(--bg-menu);
+  backdrop-filter: blur(3px);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 3px;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+}
+
+#logo {
+  padding-top: 35px;
+  display: flex;
+  color: var(--verde-principal);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.5s ease;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#logo:visited {
+  color: var(--verde-principal);
+}
+
+#logo:hover {
+  color: white;
+}
+
+#logo>span {
+  color: var(--verde-secudario);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+header span {
+  color: #ffffff;
+  font-size: 16.5px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  transition: color 0.5s ease;
+}
+
+header span:hover {
+  color: var(--verde-principal);
+}
+
+.paginas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+#link-pags {
+  margin-left: 18px;
+}

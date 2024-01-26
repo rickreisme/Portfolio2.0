@@ -1,0 +1,19 @@
+* {
+  font-family: var(--Poppins);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-degrade);
+  overflow-x: hidden;
+}
+
+a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
