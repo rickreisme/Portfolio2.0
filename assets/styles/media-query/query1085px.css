@@ -1,157 +1,206 @@
 @media screen and (max-width: 1085px) {
-    body {
-      overflow-x: hidden;
-    }
-  
-    #logo {
-      display: flex;
-      margin-top: 10px;
-      margin-bottom: 32px;
-    }
-  
-    .paginas {
-      position: absolute;
-      top: 10.3vh;
-      right: 0;
-      margin-left: 0;
-      margin-right: 0;
-      width: 50vh;
-      height: 55vh;
-      border-bottom-left-radius: 20px;
-      background-color: var(--bg-menu);
-      flex-direction: column;
-      align-items: center;
-      justify-content: start;
-  
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-    }
-  
-    .paginas li {
-      padding-top: 50px;
-      margin-left: 0;
-      opacity: 0;
-    }
-  
-    header span {
-      font-size: 20px;
-    }
-  
-    .mobile-menu {
-      display: block;
-      margin-top: 10px;
-      margin-right: 30px;
-    }
-  
-    .imagem-intro img {
-      display: flex;
-      width: 270px;
-      height: 270px;
-      padding-top: 20px;
-    }
-  
-    .sobre {
-      display: flex;
-      flex-direction: column;
-      margin-left: 15%;
-      margin-right: 15%;
-    }
-  
-    .sobre-titulo {
-      padding-top: 20px;
-    }
-  
-    .imagem-sobre {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100px;
-      height: 100px;
-      padding-top: 90px;
-      padding-bottom: 50px;
-    }
-  
-    .sobre h1 {
-      padding-top: 30px;
-      font-size: 23px;
-    }
-  
-    .sobre p {
-      font-size: 18px;
-    }
-  
-    .h2s {
-      padding-top: 75px;
-    }
-  
-    .btn {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .btn h2 {
-      font-size: 18px;
-    }
-  
-    #projeto-titulo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .box-projeto {
-      margin-bottom: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 0;
-      margin-right: 20px;
-    }
-  
-    .box-projeto .nome-projeto {
-      font-size: 25px;
-    }
-  
-    .box-projeto h3 {
-      font-size: 16px;
-    }
-  
-    .box-projeto p {
-      color: #FFF;
-      text-align: center;
-      font-size: 15.5px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      padding: 20px 15px 0 15px;
-    }
-  
-    .btn5 {
-      padding-bottom: 0;
-      margin-top: -30px;
-    }
-  
-    .colunas {
-      display: flex;
-      flex-direction: column-reverse;
-      margin: 0 15%;
-    }
-  
-    #avaRick {
-      width: 250px;
-      padding-bottom: 20px;
-    }
-  
-    .sociais {
-      width: 400px;
-      border-radius: 50px;
-    }
-  
-    .sociais h3 {
-      padding-bottom: 0;
-      margin-bottom: 20px;
-    }
-  
+
+  * {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
   }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  #logo {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 32px;
+  }
+
+  .paginas {
+    position: absolute;
+    top: 10.3vh;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 50vh;
+    height: 55vh;
+    border-bottom-left-radius: 20px;
+    background-color: var(--bg-menu);
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .paginas li {
+    padding-top: 50px;
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  header span {
+    font-size: 20px;
+  }
+
+  .mobile-menu {
+    display: block;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  .imagem-intro img {
+    display: flex;
+    width: 270px;
+    height: 270px;
+    padding-top: 20px;
+  }
+
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .sobre-titulo {
+    padding-top: 20px;
+  }
+
+  .imagem-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .sobre h1 {
+    padding-top: 30px;
+    font-size: 23px;
+  }
+
+  .sobre p {
+    font-size: 18px;
+  }
+
+  .h2s {
+    padding-top: 75px;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn h2 {
+    font-size: 18px;
+  }
+
+  #projeto-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-projeto {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .box-projeto .nome-projeto {
+    font-size: 25px;
+  }
+
+  .box-projeto h3 {
+    font-size: 16px;
+  }
+
+  .box-projeto p {
+    color: #FFF;
+    text-align: center;
+    font-size: 15.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px 15px 0 15px;
+  }
+
+  .btn5 {
+    padding-bottom: 0;
+    margin-top: -30px;
+  }
+
+  .colunas {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 15%;
+  }
+
+  #avaRick {
+    width: 250px;
+    padding-bottom: 20px;
+  }
+
+  .sociais {
+    width: 400px;
+    border-radius: 50px;
+  }
+
+  .sociais h3 {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+
+  .sobre {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .sobre img {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .btn2 {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .meus-projetos {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .img_projeto {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  #avaRick {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .colunaE h3 {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+}

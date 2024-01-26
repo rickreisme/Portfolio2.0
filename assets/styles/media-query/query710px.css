@@ -1,41 +1,99 @@
 @media screen and (max-width: 710px) {
-    .imagem-intro img {
-      display: flex;
-      width: 250px;
-      height: 250px;
-      padding-top: 20px;
-    }
-  
-    .saudacao h2 {
-      font-size: 25px;
-    }
-  
-    .intro h1 {
-      font-size: 40px;
-    }
-  
-    .box-projeto {
-      width: 370px;
-      height: 450px;
-      border-radius: 27px;
-      background: var(--verde-sete);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-left: 15px;
-    }
-  
-    .box-projeto p {
-      color: #FFF;
-      text-align: center;
-  
-      font-size: 15.5px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      padding-top: 20px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
+
+  * {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
   }
+
+  .imagem-intro img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+  }
+
+  .saudacao h2 {
+    font-size: 25px;
+  }
+
+  .intro h1 {
+    font-size: 40px;
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .intro h2 {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .box-projeto {
+    width: 370px;
+    height: 450px;
+    border-radius: 27px;
+    background: var(--verde-sete);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+  }
+
+  .box-projeto p {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 15.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .sobre {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .sobre img {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .btn2 {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .meus-projetos {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .img_projeto {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  #avaRick {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  .colunaE h3 {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+}

@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0 7%;
     align-items: center;
-    padding: 200px 0;
+    padding: 200px;
     justify-content: center;
     align-self: center;
   }
@@ -53,6 +53,7 @@
     transition: var(--transicao-botao-hover);
     text-decoration: none;
     margin-left: 20px;
+    margin-right: 20px;
     animation: reveal2 ease-in-out;
     animation-timeline: scroll();
     animation-range: cover 20% cover 50%;
