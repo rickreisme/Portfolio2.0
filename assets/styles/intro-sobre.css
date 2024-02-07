@@ -50,17 +50,12 @@
     margin-left: 7%;
     margin-right: 7%;
     align-items: center;
-    animation: appear ease-in-out;
-    animation-timeline: view();
-    animation-range: cover 0% cover 50%;
+
   }
   
   .imagem-sobre img {
     width: 400px;
     height: 400px;
-    animation: reveal ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 40% cover 50%;
   }
   
   .sobre h2 {
