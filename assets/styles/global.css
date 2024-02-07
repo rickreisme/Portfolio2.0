@@ -17,3 +17,7 @@ a {
 li {
   list-style: none;
 }
+/* 
+html {
+  scroll-behavior: smooth;
+} */
