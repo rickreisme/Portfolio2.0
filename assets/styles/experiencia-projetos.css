@@ -157,6 +157,11 @@
     align-items: flex-start;
     justify-content: center;
   }
+
+  .botoesR {
+    display: flex;
+    justify-content: center;
+  }
   
   .btn3 {
     display: flex;
@@ -186,6 +191,37 @@
   }
   
   .btn3:hover h2 {
+    color: white;
+  }
+
+  .btn3R{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 42px;
+    border-radius: 30px;
+    background: white;
+    cursor: pointer;
+    transition: var(--transicao-botao-hover2);
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  .btn3R h2 {
+    color: var(--verde-oito);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 21px;
+  }
+  
+  .btn3R:hover {
+    background: var(--verde-dark);
+  }
+  
+  .btn3R:hover h2 {
     color: white;
   }
   

@@ -50,13 +50,20 @@
     align-items: center;
   }
 
+  .btn3R{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .btn img {
     padding-left: 10px;
   }
 
   .btn h2,
   .btn2 h2,
-  .btn3 h2,
+  .btn3 h2
+  .btn3R h2,
   .btn4 h2,
   .btn5 h2,
   .btn6 h2 {
