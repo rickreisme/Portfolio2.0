@@ -43,6 +43,7 @@
   
   .btn2 {
     display: flex;
+    position: relative;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -54,15 +55,36 @@
     text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
+    overflow: hidden;
+  }
+
+  .btn2::before{
+    content: "";
+    position: absolute;
+    background-color: #FFF;
+    width: 200px;
+    height: 63px;
+    border-radius: 30px;
+    animation: 4s linear 0s infinite normal none running barra;
+  }
+
+  .btn2::after{
+    content: "";
+    position: absolute;
+    background: var(--verde-quaternario);
+    inset: 5px;
+    border-radius: 30px;
   }
   
   .btn2 img {
     width: 37px;
     height: 37px;
     color: white;
+    z-index: 1;
   }
   
   .btn2 h2 {
+    z-index: 1;
     color: #FFF;
     font-size: 19px;
     font-style: normal;
@@ -119,6 +141,7 @@
   }
   
   .box-projeto {
+    position: relative;
     width: 370px;
     height: 450px;
     border-radius: 27px;
@@ -129,6 +152,25 @@
     justify-content: center;
     margin-left: 15px;
     padding: 0 15px;
+    overflow: hidden;
+  }
+
+  .box-projeto::before{
+    content: "";
+    position: absolute;
+    background-color: #FFF;
+    width: 450px;
+    height: 440px;
+    border-radius: 30px;
+    animation: 10s linear 0s infinite normal none running barra;
+  }
+
+  .box-projeto::after{
+    content: "";
+    position: absolute;
+    background: var(--verde-darkL);
+    inset: 4px;
+    border-radius: 30px;
   }
   
   .box-projeto h2 {
@@ -138,6 +180,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    z-index: 1;
   }
   
   .box-projeto p {
@@ -148,6 +191,15 @@
     font-weight: 500;
     line-height: normal;
     padding-top: 20px;
+    z-index: 1;
+  }
+
+  .box-projeto img{
+    z-index: 1;
+  }
+
+  .box-projeto h4{
+    z-index: 1;
   }
   
   .botoes {
@@ -156,6 +208,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
+    z-index: 1;
   }
 
   .botoesR {
