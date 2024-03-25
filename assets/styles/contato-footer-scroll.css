@@ -18,16 +18,19 @@
   .colunas {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 7%;
+    justify-content: space-between;
+    margin: 10%;
     align-items: center;
+    
   }
   
   .colunaE {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 10px;
   }
   
   .colunaE h3 {
@@ -40,6 +43,33 @@
     animation: appear2 forwards;
     animation-timeline: view();
     animation-range: cover 0% cover 40%;
+  }
+
+  .colunaM{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+
+  .colunaM h3{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .colunaD{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
   }
   
   .btn6 {
@@ -80,6 +110,7 @@
   
   .sociais {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -92,6 +123,25 @@
     animation: appear3 forwards;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
+    overflow: hidden;
+  }
+
+  .sociais::before {
+    content: "";
+    position: absolute;
+    background-color: #4dff00;
+    width: 480px;
+    height: 150px;
+    border-radius: 50px;
+    animation: barra 6s linear infinite normal none running;
+  }
+  
+  .sociais::after {
+    content: "";
+    position: absolute;
+    background: var(--verde-quaternario);
+    inset: 4px;
+    border-radius: 43px;
   }
   
   .sociais h3 {
@@ -100,7 +150,7 @@
     font-weight: 600;
     line-height: normal;
     padding-bottom: 20px;
-    ;
+    z-index: 1;
   }
   
   .redes {
@@ -112,6 +162,7 @@
   
   .redes a {
     cursor: pointer;
+    z-index: 1;
   }
   
   #gith,
@@ -134,12 +185,8 @@
   #avaRick {
     display: flex;
     width: 350px;
-    padding: 16.884px 23.052px 0px 21.828px;
     justify-content: center;
     align-items: center;
-    animation: appear2 forwards;
-    animation-timeline: view();
-    animation-range: cover 0% cover 50%;
   }
   
   footer {
