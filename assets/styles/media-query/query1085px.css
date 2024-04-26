@@ -109,12 +109,13 @@
   }
 
   .box-projeto {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 0;
     margin-right: 20px;
+    min-height: 500px;
   }
 
   .box-projeto .nome-projeto {
@@ -128,11 +129,12 @@
   .box-projeto p {
     color: #FFF;
     text-align: center;
-    font-size: 15.5px;
+    max-height: 80px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding: 20px 15px 0 15px;
+    padding: 20px 15px 20px 15px;
   }
 
   .btn5 {

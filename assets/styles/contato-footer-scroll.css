@@ -40,9 +40,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    animation: appear2 forwards;
-    animation-timeline: view();
-    animation-range: cover 0% cover 40%;
   }
 
   .colunaM{

@@ -72,7 +72,7 @@
     content: "";
     position: absolute;
     background: var(--verde-quaternario);
-    inset: 5px;
+    inset: 3px;
     border-radius: 30px;
   }
   
@@ -88,7 +88,7 @@
     color: #FFF;
     font-size: 19px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
     text-align: center;
     padding-left: 10px;
@@ -118,7 +118,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 20px;
   }
   
   .meus-projetos h3 {
@@ -143,7 +142,7 @@
   .box-projeto {
     position: relative;
     width: 370px;
-    height: 450px;
+    height: 500px;
     border-radius: 27px;
     background: var(--verde-sete);
     display: flex;
@@ -172,21 +171,27 @@
     inset: 4px;
     border-radius: 30px;
   }
-  
+
   .box-projeto h2 {
-    color: #FFF;
     text-align: center;
+    margin-bottom: 20px;
+    color: #FFF;
+    z-index: 1;
+  }
+
+  .box-projeto.nome-projeto h2{
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    z-index: 1;
   }
   
   .box-projeto p {
     color: #FFF;
+    max-height: 80px;
+    max-width: 360px;
     text-align: center;
-    font-size: 16.5px;
+    font-size: 15.5px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -356,13 +361,13 @@
   
   .btn5 h2 {
     color: #FFF;
-    font-size: 17px;
+    font-size: 15.5px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: center;
     transition: var(--transicao-botao-hover4);
-    padding-top: 20px;
+    
   }
   
   .btn5:hover h2 {

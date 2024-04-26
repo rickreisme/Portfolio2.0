@@ -88,12 +88,6 @@
       font-size: 18px;
     }
   
-    #projeto-titulo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
     .box-projeto {
       margin-bottom: 20px;
       display: flex;
@@ -101,19 +95,17 @@
       align-items: center;
       margin-left: 0;
       margin-right: 20px;
+      min-height: 500px;
     }
   
     .box-projeto p {
       color: #FFF;
       text-align: center;
-  
+      max-height: 80px;
       font-size: 15.5px;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
-      padding-top: 20px;
-      padding-left: 15px;
-      padding-right: 15px;
     }
   
     .box-projeto .nome-projeto {

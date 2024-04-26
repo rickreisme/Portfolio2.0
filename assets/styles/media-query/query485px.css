@@ -222,6 +222,7 @@
     justify-content: center;
     align-items: center;
     width: 300px;
+    min-height: 520px;
     margin-right: 0;
     padding-right: 0;
     margin-left: 0;
@@ -230,17 +231,26 @@
     padding-bottom: 10px;
   }
 
-  .box-projeto h3 {
-    color: #FFF;
-    text-align: center;
+  .box-projeto p{
+    padding-bottom: 30px;
+    max-height: 80px;
+    font-size: 15px;
+  }
 
+  .box-projeto h4{
+    max-width: 250px;
+  }
+  
+  .btn3 h2{
+    color: var(--verde-oito);
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-right: 10px;
+    font-weight: 600;
+    padding-top: 21px;
+  }
+
+  .btn3R h2{
+    font-size: 16px;
   }
 
   .projetos br {
